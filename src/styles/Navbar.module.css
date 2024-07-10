@@ -1,0 +1,90 @@
+/* styles/Navbar.module.css */
+
+.navbar {
+    background-color: #3a3636;
+}
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 20px;
+}
+
+.leftSection, .rightSection {
+    display: flex;
+    align-items: center;
+}
+
+.leftSection > *, .rightSection > * {
+    margin-right: 20px;
+}
+
+.leftSection > *:last-child, .rightSection > *:last-child {
+    margin-right: 0;
+}
+
+.centerSection {
+    flex-grow: 1;
+    max-width: 400px;
+}
+
+.searchForm {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+
+.searchInput {
+    flex-grow: 1;
+    border: none;
+    background: transparent;
+    padding: 8px;
+    font-size: 14px;
+    outline: none;
+}
+
+.searchButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.searchButton:hover {
+    color: #000;
+}
+
+.textLink {
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.textLink:hover {
+    color: #bbb9b9;
+}
+
+
+.iconLink {
+    font-size: 1.2em;
+    color: #ffff;
+    transition: color 0.3s ease;
+}
+
+.iconLink:hover {
+    color: #bbb9b9;
+}
+
+.navLink {
+    display: flex;
+    align-items: center;
+}
