@@ -3,7 +3,7 @@
     "development": {
       "username": "user-name",
       "password": "strong-password",
-      "database": "shop",
+      "database": "postgres",
       "host": "127.0.0.1"
     },
     

@@ -1,12 +1,12 @@
 import { ReactNode } from 'react';
-import Navbar from '../components/Navbar';
+import { Navbar } from '../components/Navbar';
 
 type LayoutType = {
     children?: React.ReactNode;
   }
 
   
-const Layout = ({ children }: LayoutType) => {
+export const Layout = ({ children }: LayoutType) => {
     return (
         <div>
             <Navbar />
@@ -17,5 +17,3 @@ const Layout = ({ children }: LayoutType) => {
         </div>
     );
 };
-
-export default Layout;

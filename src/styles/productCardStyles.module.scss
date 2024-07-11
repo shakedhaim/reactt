@@ -1,0 +1,33 @@
+/* styles/productCardStyles.module.scss */
+.productCardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between cards */
+    margin-top: 3%;
+    margin-left: 3%;
+  }
+  
+  .productCard {
+    width: 300px; /* Adjust card width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 2%;
+  }
+
+  .productImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .productCard h3 {
+    margin-bottom: 10px;
+  }
+  
+  .productCard p {
+    margin-bottom: 5px;
+  }
+  

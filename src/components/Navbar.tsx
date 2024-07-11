@@ -6,10 +6,9 @@ import { FaShoppingCart, FaUser, FaSearch } from 'react-icons/fa';
 import { useState } from 'react';
 
 
-const Navbar = () => {
+export const Navbar = () => {
     const [searchQuery, setSearchQuery] = useState('');
-
-    const handleSearchSubmit = (e: any) => {
+        const handleSearchSubmit = (e: any) => {
         e.preventDefault();
         // Implement your search logic here
         console.log('Search query:', searchQuery);
@@ -56,5 +55,3 @@ const Navbar = () => {
         </nav>
     );
 };
-
-export default Navbar;
